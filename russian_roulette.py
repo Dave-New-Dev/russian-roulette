@@ -13,10 +13,10 @@ def run(cmd):
     subprocess.run(cmd, shell=True, capture_output=False)
 
 acceptWords = [
-  'yes','sure','ofc','of course','definitely','absolutely','with pleasure','i do','i trust my fortune','i dare','indeed','positive','true'
+  'yes','ye','sure','ofc','of course','definitely','absolutely','with pleasure','i do','i trust my fortune','i dare','indeed','positive','true'
 ]
 denyWords = [
-  'no','no thanks','ofc not','of course not','definitely not','absolutely not',"i don't",'i do not','i do not trust my fortune',"i'm scared","i am scared","i'm afraid",'i am afraid',"i'm too scared",'i am too scared','negative','false'
+  'no','nah','no thanks','ofc not','of course not','definitely not','absolutely not',"i don't",'i do not','i do not trust my fortune',"i'm scared","i am scared","i'm afraid",'i am afraid',"i'm too scared",'i am too scared','negative','false'
 ]
 def choice(choice):
   global acceptWords
