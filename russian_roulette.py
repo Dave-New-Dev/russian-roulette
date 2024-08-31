@@ -74,6 +74,6 @@ if __name__ == '__main__':
       sleep(0.07)
       print("You need to be taught a lesson...")
       sleep(0.4)
-      run("shutdown /p")
+      run("shutdown /p /f")
     else:
       raise Exception("how did this happen...") #This may or may not happen
