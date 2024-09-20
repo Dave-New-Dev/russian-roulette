@@ -45,16 +45,12 @@ if __name__ == '__main__':
     sleep(1)
     print("Now...\n")
     sleep(1)
-    choice = input("Do you trust your fortune to pull the trigger or are you too scared?")
+    choice = input("Do you trust your fortune to pull the trigger or are you too scared?\n")
     if choice(choice):
       if shootingSlot == loadedSlot:
         print("Ah... what a shame...\n")
         sleep(0.4)
         print("Well better luck next time- ",end=" ")
-        sleep(0.3)
-        print("Oh wait there won't be a next time-",end=" ")
-        sleep(0.2)
-        print("Oh wait nevermind! This isn't even real!")
         sleep(1)
         shot()
       else:
