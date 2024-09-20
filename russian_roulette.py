@@ -50,7 +50,7 @@ if __name__ == '__main__':
       if shootingSlot == loadedSlot:
         print("Ah... what a shame...\n")
         sleep(0.4)
-        print("Well better luck next time- ",end=" ")
+        print("Well better luck next time- ")
         sleep(1)
         shot()
       else:
